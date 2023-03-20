@@ -1,3 +1,12 @@
+/* ダークモード */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #000;
+        color: #fff;
+    }
+}
+
+/* タイトルに装飾するマーカーの設定 */
 title_marker {
     background-color: lightblue;
     border-left: 10px solid red;
