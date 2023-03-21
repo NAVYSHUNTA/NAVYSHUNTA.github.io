@@ -4,11 +4,24 @@
         background-color: #000;
         color: #fff;
     }
+
+    h2 {
+        color: black;
+    }
+
+    /* タイトルに装飾するマーカーの設定 */
+    title_marker {
+        background-color: lightblue;
+        border-left: 10px solid red;
+        border-bottom: 2px solid yellow;
+    }
 }
 
-/* タイトルに装飾するマーカーの設定 */
-title_marker {
-    background-color: lightblue;
-    border-left: 10px solid red;
-    border-bottom: 2px solid blue;
+@media (prefers-color-scheme: light) {
+    /* タイトルに装飾するマーカーの設定 */
+    title_marker {
+        background-color: lightblue;
+        border-left: 10px solid red;
+        border-bottom: 2px solid blue;
+    }
 }
