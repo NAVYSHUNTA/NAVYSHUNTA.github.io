@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 /* ダークモード */
 @media (prefers-color-scheme: dark) {
     body {
@@ -17,6 +19,7 @@
     }
 }
 
+/* ライトモード */
 @media (prefers-color-scheme: light) {
     /* タイトルに装飾するマーカーの設定 */
     title_marker {
