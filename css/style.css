@@ -1,10 +1,46 @@
 @charset "UTF-8";
 
+body {
+    font-size: 16px;
+    font-family: sans-serif, "游ゴシック体", YuGothic, "游ゴシック";
+}
+
+h1 {
+    font-family: 'Cherry Swash', cursive;
+    text-align: center;
+    border-style: solid;
+    border-width: 10px;
+    border-color: silver white silver white;
+}
+
+p {
+    line-height: 1.7; /* 行の高さ */
+    text-align: justify; /* 両端揃え */
+}
+
+/* タイトルに装飾するマーカーの設定 */
+title_marker {
+    background-color: lightblue;
+    border-left: 10px solid red;
+}
+
+/* ライトモード */
+@media (prefers-color-scheme: light) {
+    /* タイトルに装飾するマーカーの設定 */
+    title_marker {
+        border-bottom: 2px solid blue;
+    }
+}
+
 /* ダークモード */
 @media (prefers-color-scheme: dark) {
     body {
-        background-color: #000;
-        color: #fff;
+        background-color: black;
+        color: white;
+    }
+
+    h1 {
+        border-color: skyblue black skyblue black;
     }
 
     h2 {
@@ -13,18 +49,6 @@
 
     /* タイトルに装飾するマーカーの設定 */
     title_marker {
-        background-color: lightblue;
-        border-left: 10px solid red;
         border-bottom: 2px solid yellow;
-    }
-}
-
-/* ライトモード */
-@media (prefers-color-scheme: light) {
-    /* タイトルに装飾するマーカーの設定 */
-    title_marker {
-        background-color: lightblue;
-        border-left: 10px solid red;
-        border-bottom: 2px solid blue;
     }
 }
