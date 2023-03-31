@@ -30,6 +30,10 @@ title_marker {
     title_marker {
         border-bottom: 2px solid blue;
     }
+
+    h1 {
+        color: lightseagreen;
+    }
 }
 
 /* ダークモード */
@@ -41,6 +45,7 @@ title_marker {
 
     h1 {
         border-color: skyblue black skyblue black;
+        color: yellow;
     }
 
     h2 {
