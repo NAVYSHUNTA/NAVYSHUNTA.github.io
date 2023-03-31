@@ -11,6 +11,11 @@ h1 {
     border-style: solid;
     border-width: 10px;
     border-color: silver white silver white;
+    padding: 10px;
+}
+
+h2 {
+    margin-top: 3rem;
 }
 
 p {
@@ -22,6 +27,7 @@ p {
 title_marker {
     background-color: lightblue;
     border-left: 10px solid red;
+    padding: 8px;
 }
 
 /* ライトモード */
