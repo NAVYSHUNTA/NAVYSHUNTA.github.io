@@ -1,8 +1,8 @@
 // 最終更新日
-const last = new Date(document.lastModified);
-const year = last.getFullYear();
-const month = last.getMonth() + 1;
-const date = last.getDate();
+const lastUpdateDate = new Date(document.lastModified);
+const year = lastUpdateDate.getFullYear();
+const month = lastUpdateDate.getMonth() + 1;
+const date = lastUpdateDate.getDate();
 
-const target = document.getElementById('modify');
-target.textContent = "最終更新日：" + year + '年' + month + '月' + date + '日';
+const modifyElement = document.getElementById('modify');
+modifyElement.textContent = "最終更新日：" + year + '年' + month + '月' + date + '日';
