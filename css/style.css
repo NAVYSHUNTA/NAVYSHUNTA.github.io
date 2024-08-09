@@ -34,6 +34,16 @@ a {
     text-decoration: none;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.certificate-photo {
+    max-width: 20%;
+    height: auto;
+}
+
 /* ライトモード */
 @media (prefers-color-scheme: light) {
     h1 {
