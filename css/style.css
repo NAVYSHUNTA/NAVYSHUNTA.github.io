@@ -2,6 +2,7 @@
 
 html {
     font-size: 100%;
+    color: #333;
 }
 
 body {
@@ -23,6 +24,7 @@ h2 {
     background-color: lightblue;
     border-left: 10px solid red;
     padding: 8px;
+    color: #222;
 }
 
 p {
@@ -76,6 +78,7 @@ img {
     h2 {
         color: black;
         border-bottom: 2px solid yellow;
+        color: #222;
     }
 
     a {
