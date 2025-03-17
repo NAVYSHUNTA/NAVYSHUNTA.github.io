@@ -43,10 +43,21 @@ img {
     height: auto;
 }
 
-.certificate-photo {
+div {
+    text-align: center;
+}
+
+.certificate-photo_row {
     width: 100%;
     max-width: 200px;
     height: auto;
+    margin: 20px;
+}
+
+.certificate-photo_col {
+    height: 100%;
+    max-height: 200px;
+    width: auto;
     margin: 20px;
 }
 
