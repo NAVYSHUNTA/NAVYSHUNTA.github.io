@@ -1,0 +1,25 @@
+{
+  "name": "navyshunta.github.io",
+  "version": "1.0.0",
+  "description": "サイトは [こちら](https://navyshunta.github.io/) から見れます。",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NAVYSHUNTA/NAVYSHUNTA.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NAVYSHUNTA/NAVYSHUNTA.github.io/issues"
+  },
+  "homepage": "https://github.com/NAVYSHUNTA/NAVYSHUNTA.github.io#readme",
+  "devDependencies": {
+    "@types/node": "^22.15.18",
+    "typescript": "^5.8.3"
+  }
+}
