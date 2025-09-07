@@ -61,6 +61,20 @@ div {
     margin: 20px;
 }
 
+.img-group {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+    margin: 0.5em;
+}
+
+.img-group img {
+    width: auto;
+    max-width: 32%;
+    height: 30%;
+}
+
 /* ライトモード */
 @media (prefers-color-scheme: light) {
     h1 {
