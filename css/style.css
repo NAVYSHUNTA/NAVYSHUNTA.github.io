@@ -71,8 +71,9 @@ div {
 
 .img-group img {
     width: auto;
-    max-width: 32%;
-    height: 30%;
+    max-width: 22%;
+    height: 20%;
+    margin: 1.5em;
 }
 
 /* ライトモード */
