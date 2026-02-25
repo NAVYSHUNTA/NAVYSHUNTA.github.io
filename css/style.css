@@ -21,11 +21,11 @@ h1 {
 
 h2 {
     display: inline-block;
-    margin-top: 3rem;
-    background-color: lightblue;
-    border-left: 10px solid red;
-    padding: 8px;
+    margin-top: 4rem;
+    margin-left: 12px;
+    padding: 4px 0 4px 8px;
     color: #222;
+    border-left: 3px solid #222;
 }
 
 p {
@@ -83,10 +83,6 @@ div {
         color: #00a096;
     }
 
-    h2 {
-        border-bottom: 2px solid blue;
-    }
-
     a:hover {
         color: #0bd;
     }
@@ -105,8 +101,8 @@ div {
     }
 
     h2 {
-        color: black;
-        border-bottom: 2px solid yellow;
+        color: white;
+        border-left: 3px solid white;
     }
 
     a {
