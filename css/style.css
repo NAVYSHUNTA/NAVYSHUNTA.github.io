@@ -10,6 +10,11 @@ body {
     font-family: sans-serif, "游ゴシック体", YuGothic, "游ゴシック";
 }
 
+body p, ul, ol {
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
 h1 {
     font-family: 'Cherry Swash', cursive;
     text-align: center;
@@ -28,11 +33,18 @@ h2 {
     border-left: 3px solid #222;
 }
 
+h3 {
+    padding-left: 2rem;
+}
+
 p {
-    /* 行の高さ */
-    line-height: 1.7;
-    /* 両端揃え */
     text-align: justify;
+    line-height: 1.7;
+    font-size: 18px;
+}
+
+li {
+    font-size: 18px;
 }
 
 a {
