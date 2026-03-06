@@ -106,13 +106,13 @@ div {
 
 .certificate-photo_row {
     height: auto;
-    max-width: 25%;
+    max-width: 300px;
     margin-top: 1.5rem;
 }
 
 .certificate-photo_col {
     height: auto;
-    max-width: 50%;
+    max-width: 300px;
     margin-top: 1.5rem;
 }
 
@@ -120,11 +120,12 @@ div {
     display: flex;
     gap: 10px;
     align-items: flex-start;
+    justify-content: center;
     margin-top: 1.5rem;
 }
 
 .img-group img {
-    max-width: 30%;
+    max-width: min(30%, 300px);
     height: auto;
 }
 
