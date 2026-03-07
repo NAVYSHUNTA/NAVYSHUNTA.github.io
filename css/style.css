@@ -74,8 +74,6 @@ a {
 }
 
 ul li a {
-    /* display: block; */
-    /* color: inherit; */
     font-weight: bold;
 }
 
@@ -104,13 +102,7 @@ div {
     text-align: center;
 }
 
-.certificate-photo_row {
-    height: auto;
-    max-width: 300px;
-    margin-top: 1.5rem;
-}
-
-.certificate-photo_col {
+.certificate-photo {
     height: auto;
     max-width: 300px;
     margin-top: 1.5rem;
