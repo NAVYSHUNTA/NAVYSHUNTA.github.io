@@ -167,4 +167,12 @@ div {
     a:hover {
         color: #39f;
     }
+
+    ul li {
+        background-color: #333;
+    }
+
+    p:not(#copyright) {
+        background-color: #333;
+    }
 }
