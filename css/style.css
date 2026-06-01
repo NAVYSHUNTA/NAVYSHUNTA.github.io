@@ -132,6 +132,23 @@ div {
     color: #888;
 }
 
+/* スマホ用 */
+@media (max-width: 768px) {
+    ul li {
+        font-size: 15px;
+    }
+
+    p:not(#copyright) {
+        font-size: 16px;
+    }
+
+    .certificate-photo {
+        height: auto;
+        max-width: 170px;
+        margin-top: 1.5rem;
+    }
+}
+
 /* ライトモード */
 @media (prefers-color-scheme: light) {
     h1 {
